@@ -50,16 +50,16 @@ grunt.loadNpmTasks("grunt-typopro");
 - `fonts` (default `[]`):
   The names of the font families to install.
   At least one has to be given. The available font families are:
-  `Aileron`, Aleo`, Amble`, AnonymousPro`, BebasNeue`, Bitter`, Cabin`,
-  `CaptureIt`, ClearSans`, Courgette`, CourierPrime`, CreteRound`,
-  `Crimson`, DancingScript`, DejaVu`, Droid`, EBGaramond`, FiraMono`,
-  `FiraSans`, Gentium`, GrandHotel`, GreatVibes`, HHSamuel`, Journal`,
-  `KingthingsPetrock`, KomikaHand`, KomikaText`, LatinModern`,
-  `Lato`, LearningCurve`, LibreBaskerville`, Lora`, Merriweather`,
-  `NautilusPompilius`, Neuton`, OpenSans`, OstrichSans`, Oxygen`,
-  `Poetsen`, Pompiere`, Roboto`, SourceCodePro`, SourceSansPro`,
-  `TeXGyre`, TopSecret`, Ubuntu`, Vegur`, VeteranTypewriter`, Vollkorn`,
-  `YanoneKaffeesatz`, Yellowtail`
+  `Aileron`, `Aleo`, `Amble`, `AnonymousPro`, `BebasNeue`, `Bitter`, `Cabin`,
+  `CaptureIt`, `ClearSans`, `Courgette`, `CourierPrime`, `CreteRound`,
+  `Crimson`, `DancingScript`, `DejaVu`, `Droid`, `EBGaramond`, `FiraMono`,
+  `FiraSans`, `Gentium`, `GrandHotel`, `GreatVibes`, `HHSamuel`, `Journal`,
+  `KingthingsPetrock`, `KomikaHand`, `KomikaText`, `LatinModern`,
+  `Lato`, `LearningCurve`, `LibreBaskerville`, `Lora`, `Merriweather`,
+  `NautilusPompilius`, `Neuton`, `OpenSans`, `OstrichSans`, `Oxygen`,
+  `Poetsen`, `Pompiere`, `Roboto`, `SourceCodePro`, `SourceSansPro`,
+  `TeXGyre`, `TopSecret`, `Ubuntu`, `Vegur`, `VeteranTypewriter`, `Vollkorn`,
+  `YanoneKaffeesatz`, `Yellowtail`.
 
 ## Task Calling
 
