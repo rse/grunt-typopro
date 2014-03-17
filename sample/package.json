@@ -1,0 +1,28 @@
+{
+    "name":        "sample",
+    "version":     "1.2.3",
+    "description": "",
+    "scripts": {
+        "test": "grunt"
+    },
+    "repository": {
+        "type": "git",
+        "url":  "https://github.com/rse/grunt-typopro.git"
+    },
+    "author": {
+        "name":  "Ralf S. Engelschall",
+        "email": "rse@engelschall.com",
+        "url":   "http://engelschall.com"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url":  "http://opensource.org/licenses/MIT"
+    }],
+    "homepage": "https://github.com/rse/grunt-typopro",
+    "bugs":     "https://github.com/rse/grunt-typopro/issues",
+    "devDependencies": {
+        "grunt":                "~0.4.4",
+        "grunt-cli":            "~0.1.13",
+        "grunt-contrib-clean":  "~0.5.0"
+    }
+}
