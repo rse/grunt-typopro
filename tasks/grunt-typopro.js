@@ -43,7 +43,7 @@ module.exports = function (grunt) {
             mergecss: false,
             specimen: false,
             blurb:    true,
-            fonts: []
+            fonts:    []
         });
         grunt.verbose.writeflags(options, "Options");
 
