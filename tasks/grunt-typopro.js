@@ -41,7 +41,6 @@ module.exports = function (grunt) {
         var options = this.options({
             directory: ".",
             mergecss: false,
-            specimen: false,
             blurb:    true,
             fonts:    []
         });
@@ -56,11 +55,8 @@ module.exports = function (grunt) {
             "TypoPRO-*-*.woff",
             "TypoPRO-*-*.eot",
             "TypoPRO-*-*.ttf",
-            "TypoPRO-*-*.svgz",
             "TypoPRO-*-*.css"
         ];
-        if (options.specimen)
-            patterns.push("TypoPRO-*-*.html");
         if (options.blurb)
             patterns.push("TypoPRO-*-*.txt");
 
