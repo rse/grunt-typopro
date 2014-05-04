@@ -2,7 +2,7 @@
     "name":        "grunt-typopro",
     "homepage":    "http://github.com/rse/grunt-typopro",
     "description": "Grunt Task for Installing TypoPRO Fonts",
-    "version":     "0.9.2",
+    "version":     "0.9.3",
     "license":     "MIT",
     "author": {
         "name":    "Ralf S. Engelschall",
@@ -11,7 +11,7 @@
     },
     "keywords": [
         "gruntplugin",
-        "typopro", "font", "css", "woff", "ttf", "eot", "svgz"
+        "typopro", "font", "css", "woff", "ttf", "eot"
     ],
     "repository": {
         "type": "git",
@@ -29,7 +29,7 @@
     },
     "dependencies": {
         "chalk":                "~0.4.0",
-        "typopro":              ">=1.4.2"
+        "typopro":              ">=2.0.2"
     },
     "peerDependencies": {
         "grunt":                ">=0.4.4"
