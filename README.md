@@ -39,10 +39,6 @@ grunt.loadNpmTasks("grunt-typopro");
 - `mergecss` (default `false`): 
   Whether to merge all `TypoPRO-*-*.css` files into a single `TypoPRO.css`.
 
-- `specimen` (default `false`):
-  Whether to keep the `TypoPRO-*-*.html` "specimen" files.
-  They provide a visual overview of the font.
-
 - `blurb` (default `true`):
   Whether to keep the `TypoPRO-*-*.txt` "blurb" files.
   They provide meta-information about the font plus license details.
@@ -80,7 +76,6 @@ grunt.initConfig({
     typopro: {
         options: {
             directory: "lib/typopro",
-            specimen: false,
             mergecss: true,
             fonts: [ "Aleo", "GreatVibes", "TopSecret" ]
         }
