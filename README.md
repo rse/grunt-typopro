@@ -33,10 +33,10 @@ grunt.loadNpmTasks("grunt-typopro");
 
 ## Task Options
 
-- `directory` (default `.`): 
+- `directory` (default `.`):
   The directory where to store the resulting files.
 
-- `mergecss` (default `false`): 
+- `mergecss` (default `false`):
   Whether to merge all `TypoPRO-*-*.css` files into a single `TypoPRO.css`.
 
 - `blurb` (default `true`):
