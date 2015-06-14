@@ -2,7 +2,7 @@
     "name":        "grunt-typopro",
     "homepage":    "http://github.com/rse/grunt-typopro",
     "description": "Grunt Task for Installing TypoPRO Fonts",
-    "version":     "0.9.6",
+    "version":     "0.9.7",
     "license":     "MIT",
     "author": {
         "name":    "Ralf S. Engelschall",
@@ -29,7 +29,7 @@
     },
     "dependencies": {
         "chalk":                "~1.0.0",
-        "typopro":              ">=2.4.1"
+        "typopro-web":          ">=3.0.5"
     },
     "peerDependencies": {
         "grunt":                ">=0.4.0"
