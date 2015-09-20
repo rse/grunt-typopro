@@ -15,7 +15,7 @@ module.exports = function (grunt) {
             }
         },
         clean: {
-            clean:     [ ],
+            clean:     [ "lib" ],
             distclean: [ "node_modules" ]
         }
     });
