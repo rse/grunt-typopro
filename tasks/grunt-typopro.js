@@ -27,11 +27,12 @@
 /* global __dirname: false */
 
 /*  external requirements  */
-var path  = require("path");
-var chalk = require("chalk");
+var path    = require("path");
+var chalk   = require("chalk");
+var resolve = require("resolve");
 
-/*  determine path to TypoPRO dependency  */
-var typopro_basedir = path.resolve(path.join(__dirname, "..", "node_modules", "typopro-web"));
+/*  determine path to TypoPRO WEB dependency  */
+var typopro_basedir = path.dirname(resolve.sync("typopro-web/package.json", { basedir: __dirname }));
 
 /*  export the Grunt plugin  */
 module.exports = function (grunt) {
