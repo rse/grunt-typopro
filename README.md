@@ -46,16 +46,31 @@ grunt.loadNpmTasks("grunt-typopro");
 - `fonts` (default `[]`):
   The names of the font families to install.
   At least one has to be given. The available font families are:
-  `Aileron`, `Aleo`, `Amble`, `AnonymousPro`, `BebasNeue`, `Bitter`, `Cabin`,
-  `CaptureIt`, `ClearSans`, `Courgette`, `CourierPrime`, `CreteRound`,
-  `Crimson`, `DancingScript`, `DejaVu`, `Droid`, `EBGaramond`, `FiraMono`,
-  `FiraSans`, `Gentium`, `GrandHotel`, `GreatVibes`, `HHSamuel`, `Journal`,
-  `KingthingsPetrock`, `KomikaHand`, `KomikaText`, `LatinModern`,
-  `Lato`, `LearningCurve`, `LibreBaskerville`, `Lora`, `Merriweather`,
-  `NautilusPompilius`, `Neuton`, `OpenSans`, `OstrichSans`, `Oxygen`,
-  `Poetsen`, `Pompiere`, `Roboto`, `SourceCodePro`, `SourceSansPro`,
-  `TeXGyre`, `TopSecret`, `Ubuntu`, `Vegur`, `VeteranTypewriter`, `Vollkorn`,
-  `YanoneKaffeesatz`, `Yellowtail`.
+  `LatinModern`, `Noto`, `ComicNeue`, `KomikaHand`, `Overlock`,
+  `AndikaNewBasic`, `KomikaText`, `Pacifico`, `Rosario`, `AnonymousPro`,
+  `Coustard`, `Graziano`, `LearningCurve`, `VeteranTypewriter`,
+  `Journal`, `SourceSerifPro`, `IndieFlower`, `Yellowtail`, `Andada`,
+  `Milonga`, `HHSamuel`, `SourceSansPro`, `PTSans`, `Poly`, `Oswald`,
+  `Lora`, `LibreBaskerville`, `GrandHotel`, `Monoid`, `BukhariScript`,
+  `Signika`, `ComingSoon`, `BebasNeue`, `Quicksand`, `Merriweather`,
+  `CraftyGirls`, `Lekton`, `Raleway`, `Cousine`, `GreatVibes`,
+  `OpenSans`, `Dosis`, `Pompiere`, `SinkinSans`, `Domine`, `AmaticSC`,
+  `Mplus`, `Amble`, `Inconsolata`, `Comme`, `Rubik`, `OstrichSans`,
+  `Cabin`, `Muli`, `Gentium`, `LifeSavers`, `Aileron`, `Montserrat`,
+  `Slabo`, `Neuton`, `FiraMono`, `NautilusPompilius`, `Titillium`,
+  `FantasqueSansMono`, `EkMukta`, `TeXGyre`, `CourierPrime`, `Roboto`,
+  `Ubuntu`, `Gidole`, `Handlee`, `LobsterTwo`, `PlayfairDisplay`,
+  `KaushanScript`, `PatuaOne`, `Aleo`, `DejaVu`, `Nickainley`,
+  `PermanentMarker`, `Crimson`, `Droid`, `Cookie`, `BreeSerif`,
+  `Delius`, `FiraSans`, `WeblySleek`, `ShadowsIntoLightTwo`, `Liberation`,
+  `SourceCodePro`, `ClearSans`, `Quando`, `Cuprum`, `Chawp`, `CharisSIL`,
+  `Bitter`, `LeagueGothic`, `Kalam`, `Kreon`, `Bellota`, `Junction`,
+  `EncodeSans`, `Damion`, `YanoneKaffeesatz`, `Quattrocento`,
+  `TopSecret`, `Courgette`, `SansitaOne`, `Hack`, `CooperHewitt`,
+  `Satisfy`, `WorkSans`, `OfficeCodePro`, `EBGaramond`, `ComicRelief`,
+  `Poetsen`, `Lato`, `Alegreya`, `Vollkorn`, `LibreCaslon`, `PTMono`,
+  `PTSerif`, `KingthingsPetrock`, `Vegur`, `RockSalt`, `Asap`,
+  `CreteRound`, `Oxygen`, `DancingScript`, `ToBeContinued`.
 
 ## Task Calling
 
